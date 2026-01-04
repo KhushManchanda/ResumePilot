@@ -1,0 +1,111 @@
+{
+    "resumeId": "seed-full-stack",
+    "variantKey": "full_stack",
+    "heading": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "links": [
+            {
+                "label": "LinkedIn",
+                "url": "https://linkedin.com/in/janesmith"
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/janesmith"
+            }
+        ]
+    },
+    "education": [
+        {
+            "id": "edu-1",
+            "school": "Stanford University",
+            "location": "Stanford, CA",
+            "degrees": [
+                {
+                    "degree": "B.S. in Computer Science",
+                    "gpa": "3.8/4.0",
+                    "dates": "Sept. 2016 -- June 2020"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "id": "exp-1",
+            "company": "Stripe",
+            "role": "Senior Full-Stack Engineer",
+            "location": "San Francisco, CA",
+            "dates": "July 2022 -- Present",
+            "bullets": [
+                {
+                    "id": "bullet-1",
+                    "text": "Architected payment dashboard serving 1M+ merchants with React, TypeScript, and Node.js",
+                    "tags": [
+                        "frontend",
+                        "backend",
+                        "react"
+                    ]
+                },
+                {
+                    "id": "bullet-2",
+                    "text": "Optimized API response times by 60% through database query optimization and Redis caching",
+                    "tags": [
+                        "backend",
+                        "performance"
+                    ]
+                }
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "proj-1",
+            "name": "E-Commerce Platform",
+            "stack": "Next.js, Node.js, PostgreSQL, Stripe API, AWS",
+            "bullets": [
+                {
+                    "id": "bullet-p1",
+                    "text": "Built full-stack e-commerce platform with product catalog, cart, and checkout",
+                    "tags": [
+                        "fullstack",
+                        "nextjs"
+                    ]
+                }
+            ]
+        }
+    ],
+    "skills": {
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "SQL"
+        ],
+        "frameworks": [
+            "React",
+            "Next.js",
+            "Node.js",
+            "Express",
+            "GraphQL",
+            "Tailwind CSS"
+        ],
+        "tools": [
+            "Git",
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "PostgreSQL",
+            "MongoDB"
+        ],
+        "core": [
+            "Full-Stack Development",
+            "RESTful APIs",
+            "Microservices",
+            "System Design"
+        ]
+    },
+    "metadata": {
+        "updatedAt": "2026-01-04T19:51:40+05:30",
+        "pageFitWarnings": []
+    }
+}

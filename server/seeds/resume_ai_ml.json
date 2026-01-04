@@ -1,0 +1,115 @@
+{
+    "resumeId": "seed-ai-ml",
+    "variantKey": "ai_ml",
+    "heading": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "links": [
+            {
+                "label": "LinkedIn",
+                "url": "https://linkedin.com/in/janesmith"
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/janesmith"
+            },
+            {
+                "label": "Portfolio",
+                "url": "https://janesmith.dev"
+            }
+        ]
+    },
+    "education": [
+        {
+            "id": "edu-1",
+            "school": "Stanford University",
+            "location": "Stanford, CA",
+            "degrees": [
+                {
+                    "degree": "M.S. in Computer Science (Machine Learning)",
+                    "dates": "Sept. 2020 -- June 2022"
+                },
+                {
+                    "degree": "B.S. in Computer Science",
+                    "gpa": "3.8/4.0",
+                    "dates": "Sept. 2016 -- June 2020"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "id": "exp-1",
+            "company": "Meta AI",
+            "role": "ML Research Engineer",
+            "location": "Menlo Park, CA",
+            "dates": "July 2022 -- Present",
+            "bullets": [
+                {
+                    "id": "bullet-1",
+                    "text": "Developed transformer-based recommendation models serving 2B+ users, improving CTR by 18%",
+                    "tags": [
+                        "ml",
+                        "pytorch"
+                    ]
+                },
+                {
+                    "id": "bullet-2",
+                    "text": "Built distributed training pipeline using PyTorch and Ray, reducing training time from 5 days to 8 hours",
+                    "tags": [
+                        "ml",
+                        "distributed-systems"
+                    ]
+                }
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "proj-1",
+            "name": "LLM Fine-tuning Framework",
+            "stack": "Python, PyTorch, Hugging Face",
+            "bullets": [
+                {
+                    "id": "bullet-p1",
+                    "text": "Built open-source framework for fine-tuning LLMs with LoRA and QLoRA",
+                    "tags": [
+                        "llm",
+                        "nlp"
+                    ]
+                }
+            ]
+        }
+    ],
+    "skills": {
+        "languages": [
+            "Python",
+            "C++",
+            "SQL",
+            "JavaScript"
+        ],
+        "frameworks": [
+            "PyTorch",
+            "TensorFlow",
+            "Hugging Face",
+            "scikit-learn"
+        ],
+        "tools": [
+            "Git",
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "MLflow"
+        ],
+        "core": [
+            "Machine Learning",
+            "Deep Learning",
+            "NLP",
+            "Computer Vision"
+        ]
+    },
+    "metadata": {
+        "updatedAt": "2026-01-04T19:51:40+05:30",
+        "pageFitWarnings": []
+    }
+}

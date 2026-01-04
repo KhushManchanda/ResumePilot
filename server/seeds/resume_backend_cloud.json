@@ -1,0 +1,109 @@
+{
+    "resumeId": "seed-backend-cloud",
+    "variantKey": "backend_cloud",
+    "heading": {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "links": [
+            {
+                "label": "LinkedIn",
+                "url": "https://linkedin.com/in/janesmith"
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/janesmith"
+            }
+        ]
+    },
+    "education": [
+        {
+            "id": "edu-1",
+            "school": "Stanford University",
+            "location": "Stanford, CA",
+            "degrees": [
+                {
+                    "degree": "B.S. in Computer Science",
+                    "gpa": "3.8/4.0",
+                    "dates": "Sept. 2016 -- June 2020"
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "id": "exp-1",
+            "company": "Amazon Web Services",
+            "role": "Senior Backend Engineer",
+            "location": "Seattle, WA",
+            "dates": "July 2022 -- Present",
+            "bullets": [
+                {
+                    "id": "bullet-1",
+                    "text": "Architected serverless event-driven platform processing 50M+ events/day using Lambda and DynamoDB",
+                    "tags": [
+                        "backend",
+                        "serverless",
+                        "aws"
+                    ]
+                },
+                {
+                    "id": "bullet-2",
+                    "text": "Reduced infrastructure costs by 35% through auto-scaling policies and reserved instance optimization",
+                    "tags": [
+                        "cloud",
+                        "cost-optimization"
+                    ]
+                }
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "proj-1",
+            "name": "Distributed Task Queue",
+            "stack": "Go, Redis, PostgreSQL, Docker",
+            "bullets": [
+                {
+                    "id": "bullet-p1",
+                    "text": "Designed distributed task queue with priority scheduling achieving 10k+ tasks/second",
+                    "tags": [
+                        "backend",
+                        "distributed-systems"
+                    ]
+                }
+            ]
+        }
+    ],
+    "skills": {
+        "languages": [
+            "Go",
+            "Python",
+            "Java",
+            "SQL"
+        ],
+        "frameworks": [
+            "gRPC",
+            "Kafka",
+            "Redis",
+            "PostgreSQL",
+            "MongoDB"
+        ],
+        "tools": [
+            "AWS (Lambda, ECS, RDS)",
+            "GCP",
+            "Docker",
+            "Kubernetes",
+            "Terraform"
+        ],
+        "core": [
+            "Distributed Systems",
+            "Cloud Architecture",
+            "Microservices",
+            "DevOps/SRE"
+        ]
+    },
+    "metadata": {
+        "updatedAt": "2026-01-04T19:51:40+05:30",
+        "pageFitWarnings": []
+    }
+}
