@@ -91,6 +91,7 @@ export default function PdfPreview({
             <div className="flex-1 overflow-hidden bg-gray-100 dark:bg-slate-900">
                 {compiledUrl ? (
                     <iframe
+                        key={compiledUrl}
                         src={compiledUrl}
                         className="w-full h-full border-0"
                         title="PDF Preview"
